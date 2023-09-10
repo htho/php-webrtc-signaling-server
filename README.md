@@ -6,6 +6,14 @@ The box should be as simple as [Pantry](https://getpantry.cloud/) or [JSONBIN.io
 
 The idea is based on [webrtc-php](https://github.com/nielsbaloe/webrtc-php).
 
+## NOTE
+
+THIS IS A WORK IN PROGRESS.
+
+Currently only the message box is implemented.
+This is sufficent to act as a Signaling Server.
+But an implementation that uses this Box as a Signaling Server to establish a WebRTC connection will follow.
+
 ## The Problem
 
 All the tutorials on WebRTC skip the part on how to setup a signaling server.
