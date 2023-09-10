@@ -1,0 +1,17 @@
+{
+    "name": "htho/lophper",
+    "description": "LoFi PHP Logger",
+    "type": "project",
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.22",
+        "phpmd/phpmd": "^2.13"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hauke Thorenz",
+            "email": "htho@thorenz.net"
+        }
+    ],
+    "require": {}
+}
