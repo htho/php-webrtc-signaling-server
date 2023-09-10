@@ -4,11 +4,9 @@
   "description": "",
   "type": "module",
   "scripts": {
-    "pretest": "npm run clean",
     "test": "testcafe",
     "ci-test": "testcafe",
-    "serve": "php -S 127.0.0.1:8000 -t ../src",
-    "clean": "if exist ../src/log (del /S /Q  ..\\src\\log)"
+    "serve": "php -S 127.0.0.1:8000 -t ../src"
   },
   "author": "",
   "license": "MIT",
