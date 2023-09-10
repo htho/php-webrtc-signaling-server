@@ -1,0 +1,5 @@
+{
+    "browsers": ["chrome:headless"],
+    "src": ["api.tc.js"],
+    "appCommand": "npm run serve"
+}

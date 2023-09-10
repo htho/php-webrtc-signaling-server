@@ -1,0 +1,18 @@
+{
+  "name": "e2e-test",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "pretest": "npm run clean",
+    "test": "testcafe",
+    "ci-test": "testcafe",
+    "serve": "php -S 127.0.0.1:8000 -t ../src",
+    "clean": "if exist ../src/log (del /S /Q  ..\\src\\log)"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "testcafe": "^3.2.0"
+  }
+}
